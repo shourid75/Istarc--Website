@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EVENTS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/events.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+  </head>
+  <body>
+    <img src="img/logo (1).png" alt="" class="logo" data-aos="zoom-in-right">
+    <div id="sidenav">
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="executive.html">EXECUTIVES</a></li>
+          <li><a href="formerExecutives.html">FORMER EXECUTIVES</a></li>
+          <li><a href="images.html">GALLERY</a></li>
+          <li><a href="events.html">EVENTS</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+    <img src="img/logo (1).png" alt="" class="logo" data-aos="zoom-in-right">
+    <div class="Events">
+
+      <h1 data-aos="zoom-in" class="Upcoming">Upcoming Events</h1>
+     
+      <h1 data-aos="zoom-in">Past Events</h1>
+
+      <div class="Events-body">
+        <a href="https://www.facebook.com/events/746365943647615/?active_tab=discussion" target="_blank"><img src="img/events/istarc ws mugda.jpg" alt="" data-aos="zoom-in-down"></a>
+        <a href="https://www.facebook.com/events/859432451780541/?ref=newsfeed" target="_blank"><img src="img/events/scientomania.jpg" alt="" data-aos="zoom-in-left"></a>
+        <a href="https://www.facebook.com/events/458461282992082/?ref=newsfeed" target="_blank"><img src="img/events/3rd ISTARC Inter Class Competition & Quizzarc Volume 2.jpg" alt="" data-aos="zoom-in-right"></a>
+        <a href="https://www.facebook.com/events/842458700075585/?ref=newsfeed" target="_blank"><img src="img/events/ISTARC Presents Workshop on Mars and Space Technology.jpg " alt="" data-aos="zoom-in-left"></a>
+        <a href="https://fb.me/e/2hOnm5gDl" target="_blank"><img src="img/events/workshop.jpg " alt="" data-aos="zoom-in-right"></a>
+        <a href="https://fb.me/e/Y1aTr30f" target="_blank"><img src="img/events/quizarc.jpg" alt="" data-aos="zoom-in-left"></a>
+        <a href="https://www.facebook.com/events/455652988242146" target="_blank"><img src="img/events/11th.jpg" alt="" data-aos="zoom-in-right"></a>
+        <a href="https://www.facebook.com/events/1838635553122472" target="_blank"><img src="img/events/10th.jpg" alt="" data-aos="zoom-in-left"></a>
+        <a href="https://fb.me/e/1gTodBOVb" target="_blank"><img src="img/events/intra clg.jpg" alt="" data-aos="zoom-in-right"></a>
+        <a href="https://fb.me/e/6nwYps6vV" target="_blank"><img src="img/events/9th.jpg" alt="" data-aos="zoom-in-left"></a>
+        <a href="https://fb.me/e/1Ia0YI8GY" target="_blank"><img src="img/events/8th.jpg" alt="" data-aos="zoom-in-right"></a>
+      </div>
+
+    </div>
+
+    <div id="sidenav">
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="events.html">EVENTS</a></li>
+          <li><a href="executives.html">EXECUTIVES</a></li>
+          <li><a href="ex-panels.css">FORMER EXECUTIVES</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="events.html">EVENTS</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menubtn">
+      <img src="img/bars.svg" alt="" id="menu" data-aos="zoom-in-left">
+    </div>
+
+
+
+    <footer>
+      <a href="https://www.facebook.com/ISTARC"><img src="facebook.ico" alt="" class="footer-img"></a>
+      <a href="https://www.instagram.com/istarc_org/"><img src="instagra.ico" alt="" class="footer-img"></a>
+      <h5>© Copyright - ISTARC || Designed by <a href="https://www.facebook.com/shourid75/" target="_blank">Asif Hasan Shourid</a></h5>
+      </footer>
+  
+      <script>
+        var menubtn = document.getElementById("menubtn")
+        var sidenav = document.getElementById("sidenav")
+        var menu = document.getElementById("menu")
+  
+        sidenav.style.right = "-250px";
+        menubtn.onclick = function(){
+          if(sidenav.style.right == "-250px"){
+            sidenav.style.right = "0";
+            sidenav.style.zIndex = "2";
+          }
+          else{
+            sidenav.style.right = "-250px";
+          }
+        }
+      </script>
+  
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+      AOS.init({
+        duration:1900,
+        once:true
+      });
+      </script>
+    </body>
+  </html>
+  

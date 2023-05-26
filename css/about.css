@@ -1,0 +1,53 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.About-us{
+  height:auto;
+  background-color:#252424;
+  color:#ffffff;
+}
+section{
+  padding:30px;
+}
+section h1{
+  font-size:40px;
+  margin-top:120px;
+  text-align:center;
+  letter-spacing:2px;
+  color: rgb(255, 244, 244);
+  margin-bottom: 40px;
+}
+p{
+  font-weight: 300;
+  font-size:16px;
+  width:97%;
+}
+span{
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size:17px;
+}
+
+footer{
+  width:100vw;
+  height:auto;
+  background-color:#171414;
+  text-align:center;
+  margin:0 auto;
+  padding-top:10px;
+}
+footer .footer-img{
+  padding:5px;
+}
+footer h5{
+  color:#F5F4F4;
+  margin: 8px;
+}
+footer h5 a{
+  text-decoration:none;
+  color: #F5F4F4;
+  font-size:15px;
+}

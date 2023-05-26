@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+  </head>
+
+  <body>
+
+    <img src="img/logo (1).png" alt="" class="logo" data-aos="zoom-in-right">
+    <div id="sidenav">
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="executive.html">EXECUTIVES</a></li>
+          <li><a href="formerExecutives.html">FORMER EXECUTIVES</a></li>
+          <li><a href="images.html">GALLERY</a></li>
+          <li><a href="events.html">EVENTS</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+    <div id="menubtn">
+      <img src="img/bars.svg" alt="" id="menu" data-aos="zoom-in-left">
+    </div>
+
+    <div class="About-us">
+      <section>
+        <h1 data-aos="zoom-in">ISTARC</h1>
+        <br>
+        <div class="comprehension" data-aos="zoom-in">
+          <p><span>Ideal Science and Technology Aiming Research Council</span>, also known as <span>ISTARC</span>, the most promising, versatile and distinguished co-curricular activities club of <span>Ideal School and College</span>, began its inception in <span>2001</span>, to promote the zeal of science among the students.<span>‘Science in Creation, not Annihilation’</span> holding this noble motto, a senior teacher of Ideal School and College, <span>Md. Motahar Hossain</span>, inaugurated the flag of <span>ISTARC</span>.</p><br><br>
+
+          <p><span>ISTARC</span> is one of the very few members of <span>MILSET ASIA from Bangladesh (incl. Ministry of Education, Bangladesh)</span>. ISTARC got its membership in 2016 as a sign of its progression and its world-class standard quality in organizing science fairs since <span>2008</span>. The organization’s recognition has glorified the institution’s name and presented <span>ISTARC</span> in front of the whole world and <span>MILSET</span> promises to be the global partner of the ISTARC Science and Technology Festival.</p><br><br>
+
+          <p>Being the most renowned science club,<span>ISTARC</span> has a long tradition of encouraging its followers to discover their latent zeal for science.<span>ISTARC</span> gives the necessary guidelines and it’s the pathfinder in [spreading] scientific awareness among the pupils. Science, with its own enigma, is expected to enlighten the heart of the students, being led by this glorious church of knowledge. We do culture the science and ignite the quest to know the unknown, touch and see the unseen.</p><br><br>
+
+          <p>For the last few decades, <span>ISTARC</span> has turned into the most prominent institution to organize numerous science fairs, the ultimate platform which facilitates the demonstration of the science projects by the students. [These] fairs have inspired the students to a great extent to nourish their interest and quench the thirst to show their excellence. Besides, the various Olympiads and competitions have also brought the very best of the pupils and have provided the momentum to research for advanced knowledge, other than the plain bookish knowledge.</p><br><br>
+
+          <p>Besides, every year, distinguished members of <span>Ideal Science and Technology Aiming Research Council</span> participate in national science fairs organized in various institutions and brings testimony to the institution.<span>Ideal Science and Technology Aiming Research Council</span> has earned profound respect in the international arena, by the meritorious performance of its fellows. Run by the experienced and eloquent moderators, ISTARC will be the pioneer in our movement of science and will upgrade the noble cause of promoting science in every sphere of our life. And in 2016, the spontaneously springing legacy of <span>Ideal Science and Technology Aiming Research Council</span>, it will have established a new milestone in its glorious run as the illustrious organization will celebrate its 22 years of leading in spreading scientific knowledge to pupils through utter proficiency and distinguishable elegance. The club and all associated to it are proud and thankful to be able to celebrate this achievement and hope to continue its journey for many-a-decades to come.</p>
+        </div>
+      </section>
+    </div>
+
+
+
+
+    <footer>
+    <a href="https://www.facebook.com/ISTARC"><img src="facebook.ico" alt="" class="footer-img"></a>
+    <a href="https://www.instagram.com/istarc_org/"><img src="instagra.ico" alt="" class="footer-img"></a>
+    <h5>© Copyright - ISTARC || Designed by <a href="https://www.facebook.com/shourid75/" target="_blank">Asif Hasan Shourid</a></h5>
+    </footer>
+
+    <script>
+      var menubtn = document.getElementById("menubtn")
+      var sidenav = document.getElementById("sidenav")
+      var menu = document.getElementById("menu")
+
+      sidenav.style.right = "-250px";
+      menubtn.onclick = function(){
+        if(sidenav.style.right == "-250px"){
+          sidenav.style.right = "0";
+          sidenav.style.zIndex = "2";
+        }
+        else{
+          sidenav.style.right = "-250px";
+        }
+      }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+      duration:1900,
+      once:true
+    });
+    </script>
+  </body>
+</html>
